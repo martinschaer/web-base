@@ -10,7 +10,7 @@
     "dev": "parcel index.html --open",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
-    "lint": "eslint .",
+    "lint": "eslint . & stylelint \"**/*.css\"",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,11 +22,13 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
     "parcel-bundler": "^1.12.4",
+    "postcss": "^8.4.6",
     "prettier": "2.5.1",
     "sass": "^1.49.0",
     "stylelint": "^14.3.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
     "typescript": "^4.5.5"
-  }
+  },
+  "dependencies": {}
 }
