@@ -215,7 +215,7 @@ To load jQuery from a CDN with a local fallback you can use the following:
 ></script>
 <script>
   window.jQuery ||
-    document.write('<script src="js/vendor/jquery-3.5.1.min.js"><\/script>');
+    document.write('<script src="js/vendor/jquery-3.5.1.min.js"><\/script>')
 </script>
 ```
 
